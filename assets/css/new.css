@@ -1,0 +1,78 @@
+.basket-options {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    border-bottom: 1px dashed #ccc;
+}
+
+.basket-options button {
+    font-family: "Open Sans", sans-serif;
+    border: 0;
+    color: #333;
+    background: transparent;
+    border: solid 1px #ccc;
+    transition: all 0.5s;
+}
+
+.basket-options button:hover,
+.basket-options button:focus {
+    color: #fff;
+    background: #c1a35f;
+    border-color: transparent;
+}
+
+.basket-options select {
+    font-family: "Open Sans", sans-serif;
+    padding: 0.25em;
+}
+
+.basket-options .add-to-basket {
+    float: right;
+    padding: 0.35em 1em;
+}
+
+.basket-options .input-stepper {
+    float: left;
+    margin-right: 1em;
+}
+
+.basket-options .input-stepper input {
+    width: 2em;
+    padding: 0.2em 0.25em;
+    text-align: center;
+}
+
+.basket-options .input-stepper button {
+    width: 2em;
+    padding: 0.3em 0.5em;
+    color: #fff;
+    background: #c1a35f;
+    border-color: transparent;
+}
+
+.mu-menu-item-nav .media-left,
+.mu-menu-item-nav .media-body {
+    border-bottom: none !important;
+}
+
+@media (max-width: 500px) {
+
+    .basket-options .add-to-basket {
+        display: block;
+        float: none;
+        padding: 0.35em 1em;
+        margin: 1em auto;
+    }
+
+    .basket-options select {
+        display: block;
+        margin: 1em auto;
+    }
+
+    .basket-options .input-stepper {
+        display: block;
+        float: none;
+        margin: 1em auto;
+        text-align: center;
+    }
+
+}
